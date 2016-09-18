@@ -5,7 +5,16 @@ import "runtime"
 type symbols struct {
 	Tick               string
 	Cross              string
+	CrossGraph         string
+	CrossThin          string
 	Star               string
+	QuoteStart         string
+	QuoteEnd           string
+	QuestionMark       string
+	ExclamationMark    string
+	WhiteDiamond       string
+	BlackDiamond       string
+	WrapDiamond        string
 	Square             string
 	SquareSmall        string
 	SquareSmallFilled  string
@@ -75,7 +84,16 @@ func setDefaultSymbols() symbols {
 	return symbols{
 		Tick:               "✔",
 		Cross:              "✖",
+		CrossGraph:         "✘",
+		CrossThin:          "✕",
 		Star:               "★",
+		ExclamationMark:    "❗",
+		QuestionMark:       "❓",
+		QuoteStart:         "❝",
+		QuoteEnd:           "❞",
+		WhiteDiamond:       "◇",
+		blackDiamond:       "◆",
+		WrapDiamond:        "◈",
 		Square:             "▇",
 		SquareSmall:        "◻",
 		SquareSmallFilled:  "◼",
@@ -136,7 +154,16 @@ func setWindowsSymbols() symbols {
 	return symbols{
 		Tick:               "√",
 		Cross:              "×",
+		CrossGraph:         "×",
+		CrossThin:          "×",
 		Star:               "*",
+		ExclamationMark:    "!",
+		QuestionMark:       "?",
+		QuoteStart:         "\"",
+		QuoteEnd:           "\"",
+		WhiteDiamond:       "[]",
+		blackDiamond:       "█",
+		WrapDiamond:        "[█]",
 		Square:             "█",
 		SquareSmall:        "[ ]",
 		SquareSmallFilled:  "[█]",

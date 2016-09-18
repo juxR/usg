@@ -31,7 +31,16 @@ fmt.Println(usg.Get.Tick, "Tests")
 | ------------------ | :-------: | :-----: |
 | Tick               |     ✔     |    √    |
 | Cross              |     ✖     |    ×    |
+| CrossGraph         |     ✘     |    ×    |
+| CrossThin          |     ✕     |    ×    |
 | Star               |     ★     |    *    |
+| ExclamationMark    |     ❗    |    !    |
+| QuestionMark       |     ❓    |    ?    |
+| QuoteStart         |     ❝     |    "    |
+| QuoteEnd           |     ❞     |    "    |
+| WhiteDiamond       |     ◇     |    []   |
+| BlackDiamond       |     ◆     |    █    |
+| WrapDiamond        |     ◈     |   [█]   |
 | Square             |     ▇     |    █    |
 | SquareSmall        |     ◻     |   [ ]   |
 | SquareSmallFilled  |     ◼     |   [█]   |
